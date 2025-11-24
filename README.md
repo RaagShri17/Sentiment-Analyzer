@@ -5,6 +5,9 @@ A simple yet powerful Python application that analyzes the sentiment of text usi
 ##  Overview
 
 This project uses TextBlob to perform sentiment analysis on user-provided text and categorizes it as Positive, Negative, or Neutral. The application features a clean GUI built with Tkinter that makes sentiment analysis accessible to everyone.
+Logic of the Program
+<img width="715" height="540" alt="image" src="https://github.com/user-attachments/assets/6758d964-83b2-43a5-bdc5-3047c65e1e9c" />
+
 
 ##  Features
 
@@ -175,7 +178,6 @@ python -m textblob.download_corpora
 - [ ] Advanced visualization with graphs
 - [ ] Machine learning model training option
 
-## Screenshots
 ---
 
 **Made By**
