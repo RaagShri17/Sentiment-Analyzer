@@ -13,13 +13,16 @@ Logic of the Program
 
 - **Real-time Sentiment Analysis**: Instantly analyze any text input
 - **Visual Feedback**: Emoji-based sentiment representation 
-- **Color-Coded Results**: 
-  - 🟢 Green text for Positive sentiment
-  - 🔴 Red text for Negative sentiment
-  - ⚫ Gray text for Neutral sentiment
-- **User-Friendly Interface**: Clean, simple and basic GUI with scrollable text input
-- **Keyboard Shortcut**: Press `Ctrl + Enter` for quick analysis
+- **Adjustable Sensitivity:** Customize threshold levels (0.1 - 0.9) for sentiment classification
+- **Sentiment Score:** Displays precise polarity score (-1.0 to +1.0)
+- **Color-Coded Results:**
 
+🟢 Green for Positive sentiment
+🔴 Red for Negative sentiment
+⚫ Gray for Neutral sentiment
+
+- **User-Friendly Interface:** Clean, modern GUI with scrollable text input
+- 
 ##  Technologies Used
 
 - **Python 3.x**
@@ -99,6 +102,15 @@ sentiment-analysis-tool/
 ├── README.md                  # Project documentation
 └── requirements.txt           # Python dependencies (optional)
 ```
+## 📊 Understanding Sentiment Scores
+
+Score Range: -1.0 (most negative) to +1.0 (most positive)
+Positive: Score ≥ threshold
+Neutral: Score between -threshold and threshold
+Negative: Score ≤ -threshold
+
+---
+Default threshold is set to 0.3, which balances sensitivity and accuracy.
 
 
 ##  Use Cases
