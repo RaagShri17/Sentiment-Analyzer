@@ -149,7 +149,7 @@ if sentiment >= friendly_threshold:
 self.root.geometry("600x500")  # Modify width x height
 ```
 
-##  Troubleshooting
+##  What can be Troubleshooting
 
 ### Issue: "ModuleNotFoundError: No module named 'textblob'"
 **Solution**: Install TextBlob
