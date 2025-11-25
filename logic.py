@@ -17,4 +17,11 @@ def get_mood(input_text: str, *, threshold: float) -> Mood:
     elif sentiment <= hostile_threshold:
         return Mood("😠", sentiment)
     else:
-        return Mood("😐", sentiment)
+        return Mood("😐", sentiment) 
+
+if __name__ == "__main__":
+   while True:
+       text : str = input('Text: ')
+       mood : Mood = get_mood(text, threshold=0.3)
+
+       print(f'Emoji: {mood.emoji} | Sentiment: {mood.sentiment:.3f}')
