@@ -6,7 +6,8 @@ A simple yet powerful Python application that analyzes the sentiment of text usi
 
 This project uses TextBlob to perform sentiment analysis on user-provided text and categorizes it as Positive, Negative, or Neutral. The application features a clean GUI built with Tkinter that makes sentiment analysis accessible to everyone.
 Logic of the Program
-<img width="715" height="540" alt="image" src="https://github.com/user-attachments/assets/6758d964-83b2-43a5-bdc5-3047c65e1e9c" />
+<img width="1075" height="883" alt="image" src="https://github.com/user-attachments/assets/d46bfdfb-90eb-4b5e-b58b-c1000a9fab0d" />
+
 
 
 ##  Features
@@ -77,20 +78,23 @@ python sentiment_gui.py
 ```
 "I absolutely love this product! It exceeded all my expectations."
 ```
-<img width="558" height="557" alt="image" src="https://github.com/user-attachments/assets/6600fcf5-4776-486d-a462-7d0f7018507c" />
+<img width="740" height="655" alt="Screenshot 2025-11-25 162252" src="https://github.com/user-attachments/assets/92a12f51-d3e0-493e-8f37-6e001cf1e886" />
+
 
 **Negative Sentiment:**
 ```
 "This is terrible. I'm very disappointed with the quality."
 ```
-<img width="555" height="556" alt="image" src="https://github.com/user-attachments/assets/757401dc-5064-4877-a09b-ecb401d36112" />
+<img width="741" height="659" alt="Screenshot 2025-11-25 162342" src="https://github.com/user-attachments/assets/e94a1451-e9a7-4f40-9c68-af2c896e69e6" />
+
 
 
 **Neutral Sentiment:**
 ```
 "The package arrived on Tuesday. It contains three items."
 ```
-<img width="561" height="559" alt="image" src="https://github.com/user-attachments/assets/3f61b3bc-a849-430d-ba91-5517bb97baf9" />
+<img width="746" height="656" alt="Screenshot 2025-11-25 162159" src="https://github.com/user-attachments/assets/10a34391-a28b-42ce-963c-cc0c5b24b7d7" />
+
 
 
 ##  Project Structure
